@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Tarea1_Mapa_de_clases_cs": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
