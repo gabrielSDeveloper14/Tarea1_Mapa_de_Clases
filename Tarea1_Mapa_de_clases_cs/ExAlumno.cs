@@ -8,7 +8,13 @@ namespace Tarea1_Mapa_de_clases_cs
 {
    public class ExAlumno : MiembroDeLaComunidad
     {
-        public int AñoSalida { get; set; }
-        public string Profesion {  get; set; }
+        public string AnioSalida, Profesion;
+
+        public override void MostrarDatos()
+        {
+            base.MostrarDatos();
+            Console.WriteLine($"Año de salida: {AnioSalida}");
+            Console.WriteLine($"Profesión: {Profesion}");
+        }
     }
 }

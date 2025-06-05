@@ -8,9 +8,14 @@ namespace Tarea1_Mapa_de_clases_cs
 {
     public class Estudiante : MiembroDeLaComunidad
     {
-        public int Matricula { get; set; }
-        public string Carrera { get; set; }
-        public int AñoIngreso { get; set; }
+        public string Matricula, Carrera, AnioIngreso;
 
+        public override void MostrarDatos()
+        {
+            base.MostrarDatos();
+            Console.WriteLine($"Matrícula: {Matricula}");
+            Console.WriteLine($"Carrera: {Carrera}");
+            Console.WriteLine($"Año de ingreso: {AnioIngreso}");
+        }
     }
 }
