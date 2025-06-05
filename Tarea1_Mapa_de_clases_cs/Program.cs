@@ -1,6 +1,13 @@
 ﻿using System;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
+
+
+/* Nombre: Gabriel Alexander Nuñez Peña 
+   Matricula: 2024-16671
+   Materia: Programacion 2
+
+*/
 namespace Tarea1_Mapa_de_clases_cs
 {
 
